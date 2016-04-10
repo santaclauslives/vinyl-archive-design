@@ -85,15 +85,15 @@
 
 <div class="style_guide_item">
     <div class="style_guide_header">
-        Album Detail - Song Artist 
+        Album Detail - Artist 
     </div>
     <div class="style_guide_example">
-        <div class="album_detail_song_artist">This song artist is Oswald 16px</div>
+        <div class="album_detail_artist">This song artist is Oswald 16px</div>
     </div>
 </div>
 
         <style>
-            .album_detail_song_artist {
+            .album_detail_artist {
                 font-family: Oswald;
                 font-size: 16px;
                 color: #a6a6a6;
@@ -111,7 +111,7 @@
 </div>
 
         <style>
-            .album_detail_song_artist {
+            .album_detail_artist {
                 font-family: Oswald;
                 font-size: 16px;
                 color: #a6a6a6;
@@ -134,9 +134,9 @@
               </div>
             </div>
             <div class="medium-6 columns">
-              <label>Input Label
+             
                 <input type="text" placeholder=".medium-6.columns">
-              </label>
+             
             </div>
           </div>
         </form>
@@ -149,15 +149,19 @@
                 border-radius: 10px;
                 background-color: #efefef;
                 width: 100%;
-
-            }
-
+                padding: 15px 15px;}
 
             .input-box-text {
                 font-family: Oswald-LightItalic;
                 font-size: (24rem/16);
-                color: #a6a6a6;
+                color: #5d5e5e;
                 padding-left: 15px;
+                border-width: 0px;
+            }
+
+            ::-webkit-input-placeholder {
+               background-color: #efefef;
+               border: none;
             }
         </style>
 
@@ -169,23 +173,165 @@
         Repeating Page Header
     </div>
     <div class="style_guide_example">
-          <div class="row">
+        <div class="row">
             <div class="small-12 columns">
-              <div class="input-box">
-              logo
-              The Vinyl Archive
-              by Hear Nebraska
-              ADD AN ALBUM
-                    <div class="input-box-text">
-                <input type="text" placeholder=".medium-6.columns">
+                <div class="vinyl-archive-header">
+                    <div class="vinyl-archive-logo">
+                        <i class="HN-icons">Glyph 9 U+E605</i>
+                        <div class="vinyl-archive-header-text">THE VINYL ARCHIVE <span class=byline>by Hear Nebraska</span>
+                        </div>
+                        <a class="link-text" href="url">ADD AN ALBUM</a>
                     </div>
-              </div>
+                </div>
             </div>
-            
-          </div>
-       
+        </div>
+    </div>
+                <style>
+                    .vinyl-archive-header {
+                        background-color: black;
+                        width: 100%;
+                        padding: 20px 20px 20px 20px;
+                    }
+
+                    .vinyl-archive-header-text {
+                        color: white;
+                        float: left;
+                        font-weight: bold;
+                        font-family: Oswald;
+                        font-size: (rem24/16);
+                        
+                        /*background-color: black;*/
+
+                    }
+
+                    .byline {
+                        font-weight: normal;
+                    }
+
+                    .link-text {
+                        float: right;
+                        color: white;
+                        font-weight: bold;
+                        font-family: Montserrat;
+                        font-size: (rem24/16);
+                        /*background-color: black;*/
+                        text-decoration: none;
+
+                    }
+
+                </style>
+
+        
+<div class="style_guide_item">
+    <div class="style_guide_header">
+        One Album Object
+    </div>
+    <div class="style_guide_example">
+        <div class="row">
+            <div class="small-3 columns">
+                <div class="one-album-object">
+                  <img class="album-image" src="" alt="Smiley face"> 
+                    <div class="album-title">Album Title</div>
+                    <div class="album-artist">Artist(s)</div> 
+                </div>
+            </div>
+        </div>
     </div>
 </div>
+
+          <style>
+             .one-album-object {
+                position: relative;
+                display: block;
+                float: left;
+                height: 270px;
+                width: 100%;
+                padding: 20px 20px 20px 20px;}
+
+             .album-image {
+                position: relative;
+                display: block;
+                height: 205px;
+                width: 205px;
+                padding-bottom: 5px;}
+
+             .album-title {
+                position: relative;
+                display: block;
+                font-family: Oswald;
+                font-size: (rem24/16);
+                color: #5d5e5e;
+                text-align: left;}
+
+             .album-artist {
+                position: relative;
+                display: block;
+                font-family: Oswald;
+                font-size: (rem24/16);
+                color: #5d5e5e;
+                text-align: left;
+                font-style: italic;
+            }
+          </style>
+
+<div class="style_guide_item">
+    <div class="style_guide_header">
+        One Album Object - List format
+    </div>
+    <div class="style_guide_example">
+        <div class="row">
+            <div class="small-9 columns">
+            <div class="small-6 columns">
+                <div class="one-album-list-object">
+                  <img class="album-list-image" src="" alt="Smiley face"> 
+                    <div class="album-list-title">Album Title</div><br>
+                    <div class="album-list-artist">Artist(s)</div> 
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+          <style>
+             .one-album-list-object {
+                position: relative;
+                display: block;
+                float: left;
+                height: 75px;
+                width: 100%;
+                padding: 20px 20px 20px 20px;}
+
+             .album-list-image {
+                position: relative;
+                float: left;
+                display: block;
+                height: 55px;
+                width: 55px;
+                padding-bottom: 5px;
+                padding-left: 10px;}
+
+             .album-list-title {
+                position: relative;
+                display: block;
+                float: left;
+                font-family: Oswald;
+                font-size: (rem24/16);
+                color: #5d5e5e;
+                text-align: left;
+                padding-left: 10px;}
+
+             .album-list-artist {
+                position: relative;
+                display: inline-block;
+                font-family: Oswald;
+                font-size: (rem24/16);
+                color: #5d5e5e;
+                text-align: left;
+                font-style: italic;
+                padding-left: 10px;
+            }
+          </style>
 
 
 
