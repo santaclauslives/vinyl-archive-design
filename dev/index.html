@@ -33,12 +33,23 @@
 
 <div class="style_guide_item">
     <div class="style_guide_header">
-        Default Paragraph
+        Default Body Text
     </div>
     <div class="style_guide_example">
-        <p>Nebraska Vinyl Archive is a great resource.</p>
+        <div class="default-body-text">
+        Nebraska Vinyl Archive is a great resource.
+        </div>
     </div>
 </div>
+
+            <style>
+                .default-body-text {
+                    font-family: Oswald;
+                    font-size: (rem24/16);
+                    color: #5d5e5e;}
+                
+
+            </style>
 
 <div class="style_guide_item">
     <div class="style_guide_header">
@@ -77,8 +88,8 @@
 
         <style>
             .album_detail_song {
-                font: $oswald;
-                /*font-size: 16px;*/
+                font: Oswald;
+                font-size: (rem24/16);
                 color: #5d5e5e;
             }
         </style>
@@ -127,8 +138,8 @@
         <form>
           <div class="row">
             <div class="medium-6 columns">
-              <div class="input-box">
-                    <div class="input-box-text">
+              <div class="input-box"> 
+                   <div class="input-box-text">
                 <input type="text" placeholder=".medium-6.columns">
                     </div>
               </div>
@@ -145,7 +156,7 @@
 
         <style>
             .input-box {
-                position: relative;
+                display: block;
                 border-radius: 10px;
                 background-color: #efefef;
                 width: 100%;
@@ -161,8 +172,12 @@
 
             ::-webkit-input-placeholder {
                background-color: #efefef;
-               border: none;
             }
+
+            :placeholder-shown {
+                border: none;
+            }
+
         </style>
 
 
@@ -341,7 +356,7 @@
         <div class="row">
             <div class="small-9 columns">
                 <div class="page-content-header">
-                    <div class="page-content-header-text">The Linoma Mashers<span class="page-content-modifier-text"> | Musician</span>
+                    <div class="page-content-header-text">The Linoma Mashers |<span class="page-content-modifier-text"> Musician</span>
                     
                     <a class="link-text" href="url">EDIT MUSICIAN</a>
                     </div>
@@ -390,7 +405,7 @@
 
 <div class="style_guide_item">
     <div class="style_guide_header">
-        3 Column Page Content Header
+        3 Column Page Content Divider
     </div>
     <div class="style_guide_example">
         <div class="row">
@@ -429,7 +444,7 @@
         <div class="row">
             <div class="small-12 columns">
                 <div class="page-content-header">
-                    <div class="page-content-header-text">Album Title<span class="page-content-modifier-text"> | What it is</span>
+                    <div class="page-content-header-text">Album Title |<span class="page-content-modifier-text"> What it is</span>
                     
                     <a class="link-text" href="url">EDIT ALBUM</a>
                     </div>
@@ -474,9 +489,133 @@
 
                 </style>
 
+<div class="style_guide_item">
+    <div class="style_guide_header">
+        Album Page Track List
+    </div>
+    <div class="style_guide_example">
+        <div class="row">
+            <div class="small-6 columns">
+                <div class="album-detail">
+                    <div class="album-detail-title">
+                        <div class="album-detail-artist">
+                <div class="album-track-list">
+                    <div class="album-track-number">1 <span class="album-track-song-title"> Bohemian Rhapsody</span> <span class="album-track-info"> Any other necessary text</div>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                <style>
 
 
 
+        
+    </div>
+</div>
+
+        <style>
+            .album-detail-title {
+                display: block;
+                font-family: YanoneKaffeesatz-Bold;
+                font-size: (rem22/16);
+                color: #5d5e5e;
+            }
+
+            .album-detail-artist {
+                display: block;
+                font-family: Oswald;
+                font-size: (rem24/16);
+                color: #a6a6a6;
+            }
+
+            .album-track-number {
+                display: inline-block;
+                font-family: Oswald;
+                font-size: (rem24/16);
+                color: #a6a6a6;
+            }
+
+            .album-track-song-title {
+                display: inline-block;
+                font-family: Oswald;
+                font-size: (rem24/16);
+                color: #2b2b2b;
+            }
+
+            .album-track-info {
+                display: inline-block;
+                font-family: Oswald;
+                font-style: italic;
+                font-size: (rem24/16);
+                color: #2b2b2b;
+            }
+            
+        </style>
+
+
+        <div class="style_guide_item">
+            <div class="style_guide_header">
+                Page Navigation
+            </div>
+                <div class="style_guide_example">
+                    <div class="row">
+                        <div class="small-9 columns">
+                        <ul class="pagination" role="navigation" aria-label="Pagination">
+                            <li><a href="#">❮</a></li>
+                          <li class="disabled"> PREV <span class="show-for-sr"></span></li>
+                          <li class="current"><span class="show-for-sr"></span> 1</li>
+                          <li><a href="#" aria-label="Page 2">2</a></li>
+                          <li><a href="#" aria-label="Page 3">3</a></li>
+                          <li><a href="#" aria-label="Page 4">4</a></li>
+                          <li class="ellipsis" aria-hidden="true"></li>
+                          <li><a href="#" aria-label="Page 12">12</a></li>
+                          <li><a href="#" aria-label="Page 13">13</a></li>
+                          <li><a href="#" aria-label="Next page"> NEXT <span class="show-for-sr"></span></a></li>
+                          <li><a href="#">❯</a></li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+<ul class="pagination">
+  <li><a href="#">❮</a></li>
+  <li><a href="#">❯</a></li>
+</ul>
+
+
+                    <style>
+                            ul {
+                                padding: 0;
+                            }
+
+                            ul li {
+                                display: inline-block;
+                            }
+
+                            ul li a {
+                                background-color: white;
+                                color: #5d5e5e;
+                                font-family: Oswald;
+                                font-size: (rem24/16);
+                                padding: 10px 10px;
+                                text-decoration: none;
+                                border-radius: 4px 4px 0 0;
+                            }
+
+                            ul li a:hover {
+                                background-color: orange;
+                            }
+
+                            .disabled {
+                                color: #868686;
+                            }
+
+                    </style>
 
 
 
