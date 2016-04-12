@@ -1829,4 +1829,7 @@ button {
 .long-delay {
   animation-delay: 700ms !important; }
 
+.test {
+  font: normal normal 1.5rem "Oswald"; }
+
 /*# sourceMappingURL=global.css.map */
