@@ -63,21 +63,13 @@
 //----------reusable vinyl archive header ----
 
 //-----testing
-.icon-Glyph-9 {
-  color: red;
-  padding-left: 50px;
-  position: relative;
-  display: inline-block;
-  font-family: "HN-icons";
-  font-size: 30px;
 
-}
 
 .title-bar {
   display: block;
   position: relative;
   color: black;
-  height: 40px;
+  height: 80px;
 }
 
 .title-bar-title {
@@ -95,25 +87,43 @@
   .vinyl-archive-header {
       background-color: black;
       width: 100%;
-      padding: 20px 20px 20px 20px;
+      height: 100px;
+      padding: 0px 20px;
+      
   }
   .vinyl-archive-header-text {
       color: #FFFFFF;
-      float: left;
+      display: inline-block;
       font: $oswald;
+      padding-top: 30px;
+      padding-left: 20px;
    
   }
 
- 
+  .icon {
+      float: left;
+      position: relative;
+      display: inline-block;
+      font: $icons;
+      padding: 10px 10px;
+      background-color: white;
+     
+
+
+}
   
   .byline {
       font: $oswaldLight;
+      padding-left: 10px;
   }
-  .link-text {
+  .link-text-vinyl-archive-header {
       float: right;
+      display: block;
       color: white;
       font: $montserrat;
       text-decoration: none;
+      vertical-align: middle;
+      padding-top: 30px;
   }
      
 
@@ -208,8 +218,9 @@
   }
   .link-text {
       position: block;
+      float: right;
       color: white;
-      font: $oswald;
+      font: $montserrat;
       text-decoration: none;
 
   }
@@ -258,9 +269,9 @@
   }
   .link-text {
       display: block;
-      /*float: right;*/
+      float: right;
       color: white;
-      font: $oswald;
+      font: $montserrat;
       text-decoration: none;
   }
                 

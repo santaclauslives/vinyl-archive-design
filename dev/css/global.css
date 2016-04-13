@@ -1871,19 +1871,11 @@ button {
 :placeholder-shown {
   border: none; }
 
-.icon-Glyph-9 {
-  color: red;
-  padding-left: 50px;
-  position: relative;
-  display: inline-block;
-  font-family: "HN-icons";
-  font-size: 30px; }
-
 .title-bar {
   display: block;
   position: relative;
   color: black;
-  height: 40px; }
+  height: 80px; }
 
 .title-bar-title {
   font: normal normal 1.5rem "Oswald"; }
@@ -1895,21 +1887,36 @@ button {
 .vinyl-archive-header {
   background-color: black;
   width: 100%;
-  padding: 20px 20px 20px 20px; }
+  height: 100px;
+  padding: 0px 20px; }
 
 .vinyl-archive-header-text {
   color: #FFFFFF;
+  display: inline-block;
+  font: normal normal 1.5rem "Oswald";
+  padding-top: 30px;
+  padding-left: 20px; }
+
+.icon {
   float: left;
-  font: normal normal 1.5rem "Oswald"; }
+  position: relative;
+  display: inline-block;
+  font: normal normal 80px "HN-icons";
+  padding: 10px 10px;
+  background-color: white; }
 
 .byline {
-  font: normal lighter 1.5rem "Oswald"; }
+  font: normal lighter 1.5rem "Oswald";
+  padding-left: 10px; }
 
-.link-text {
+.link-text-vinyl-archive-header {
   float: right;
+  display: block;
   color: white;
   font: normal bold 1.5rem "Montserrat";
-  text-decoration: none; }
+  text-decoration: none;
+  vertical-align: middle;
+  padding-top: 30px; }
 
 .one-album-object {
   position: relative;
@@ -1988,8 +1995,9 @@ button {
 
 .link-text {
   position: block;
+  float: right;
   color: white;
-  font: normal normal 1.5rem "Oswald";
+  font: normal bold 1.5rem "Montserrat";
   text-decoration: none; }
 
 .page-content-divider {
@@ -2016,9 +2024,9 @@ button {
 
 .link-text {
   display: block;
-  /*float: right;*/
+  float: right;
   color: white;
-  font: normal normal 1.5rem "Oswald";
+  font: normal bold 1.5rem "Montserrat";
   text-decoration: none; }
 
 .album-detail-title {
