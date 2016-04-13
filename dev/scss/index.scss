@@ -1,0 +1,380 @@
+
+//---Headers for styleguide items------
+
+
+
+//--------Default text-----------
+
+.default-body-text {
+  font: $oswald;
+  // font-size: (rem24/16);
+  color: #5d5e5e;}
+
+  //--------Album detail title-----------
+
+.album_detail_title {
+    font: $yanone;
+    color: #5d5e5e;
+}
+
+  //--------Default text-----------
+
+.album_detail_song {
+    font: $oswaldLight;
+    color: #5d5e5e;
+}
+
+  //--------album detail artist-----------
+
+.album_detail_song {
+    font: $oswald;
+    color: #5d5e5e;
+}
+
+
+ //--------album detail artist additional detail-----------
+
+  .album_detail_artist {
+      font: $oswaldItalic;
+      color: #a6a6a6;
+  }
+
+//-----------------Reusable input box ---------
+  .input-box {
+      display: block;
+      border-radius: 10px;
+      background-color: #efefef;
+      width: 100%;
+      padding: 15px 15px;}
+  .input-box-text {
+      font: $oswaldItalic;
+      color: #5d5e5e;
+      padding-left: 15px;
+      border-width: 0px;
+  }
+  ::-webkit-input-placeholder {
+     background-color: #efefef;
+  }
+  :placeholder-shown {
+      border: none;
+  }
+
+
+//----------reusable vinyl archive header ----
+
+//-----testing
+.icon-Glyph-9 {
+  color: red;
+  padding-left: 50px;
+  position: relative;
+  display: inline-block;
+  font-family: "HN-icons";
+  font-size: 30px;
+
+}
+
+.title-bar {
+  display: block;
+  position: relative;
+  color: black;
+  height: 40px;
+}
+
+.title-bar-title {
+  font: $oswald;
+
+}
+
+.menu-icon {
+  color: #FFFFFF;
+  display: inline-block;
+}
+
+
+ //--------test end              
+  .vinyl-archive-header {
+      background-color: black;
+      width: 100%;
+      padding: 20px 20px 20px 20px;
+  }
+  .vinyl-archive-header-text {
+      color: #FFFFFF;
+      float: left;
+      font: $oswald;
+   
+  }
+
+ 
+  
+  .byline {
+      font: $oswaldLight;
+  }
+  .link-text {
+      float: right;
+      color: white;
+      font: $montserrat;
+      text-decoration: none;
+  }
+     
+
+//-----one album object - block format ---
+
+          
+ .one-album-object {
+    position: relative;
+    display: block;
+    float: left;
+    height: 300px;
+    width: 100%;
+    padding: 20px 20px 20px 20px;}
+ .album-image {
+    position: relative;
+    display: block;
+    height: 205px;
+    width: 205px;
+    padding-bottom: 5px;}
+ .album-title {
+    position: relative;
+    display: block;
+    font: $oswald;
+    color: #5d5e5e;
+    text-align: left;}
+ .album-artist {
+    position: relative;
+    display: block;
+    font: $oswaldItalic;
+    color: #5d5e5e;
+    text-align: left;
+}
+
+
+
+
+
+//----one album object - list format ---
+
+
+          
+ .one-album-list-object {
+    position: relative;
+    display: block;
+    float: left;
+    height: 100px;
+    width: 100%;
+    padding: 20px 20px 20px 20px;}
+ .album-list-image {
+    position: relative;
+    float: left;
+    display: block;
+    height: 55px;
+    width: 55px;
+    padding-bottom: 5px;
+    padding-left: 10px;}
+ .album-list-title {
+    position: relative;
+    display: block;
+    float: left;
+    font: $oswald;
+    color: #5d5e5e;
+    text-align: left;
+    padding-left: 10px;}
+ .album-list-artist {
+    // position: relative;
+    float: left;
+    display: block;
+    font: $oswaldItalic;
+    color: #5d5e5e;
+    text-align: left;
+    padding-left: 10px;
+}
+
+
+
+
+//--9 column page content header------
+
+
+  .page-content-header {
+      background-color: #5d5e5e;
+      width: 100%;
+      padding: 10px 10px;
+  }
+  .page-content-header-text {
+      color: #FFFFFF;
+      font: $montserrat;
+   }
+  .page-content-modifier-text {
+      font: $oswaldItalic;
+  }
+  .link-text {
+      position: block;
+      color: white;
+      font: $oswald;
+      text-decoration: none;
+
+  }
+
+
+
+
+
+
+
+//---3 column page content divider----
+
+               
+  .page-content-divider {
+      display: block;
+      background-color: #a6a6a6;
+      width: 100%;
+      padding: 10px 10px;
+  }
+  .page-content-divider-text {
+      color: #FFFFFF; 
+      font: $montserrat;
+      
+   }
+                
+
+
+
+
+
+
+//-------album page - 12 column page content header ---
+
+
+  .page-content-header {
+      background-color: #5d5e5e;
+      width: 100%;
+      padding: 10px 10px;
+  }
+  .page-content-header-text {
+      color: #FFFFFF;
+      font: $montserrat;
+   }
+  .page-content-modifier-text {
+      font: $oswaldItalic;
+  }
+  .link-text {
+      display: block;
+      /*float: right;*/
+      color: white;
+      font: $oswald;
+      text-decoration: none;
+  }
+                
+
+
+
+
+//---------album page - album page track list---
+
+
+  .album-detail-title {
+      display: block;
+      font: YanoneKaffeesatz-Bold;
+      color: #5d5e5e;
+  }
+  .album-detail-artist {
+      display: block;
+      font: $oswald;
+      color: #a6a6a6;
+  }
+  .album-track-number {
+      display: inline-block;
+      font: $oswald;
+      color: #a6a6a6;
+  }
+  .album-track-song-title {
+      display: inline-block;
+      font: $oswald;
+      color: #2b2b2b;
+  }
+  .album-track-info {
+      display: inline-block;
+      font: $oswaldItalic;
+      color: #2b2b2b;
+  }
+  
+
+
+
+
+//---------album page - album cover object------- 
+ .album-cover-object {
+    display: block;
+    padding: 10px 10px;
+    float: left;
+
+  }
+
+  .album-cover-main-image {
+    display: block;
+    width: 100%;
+    height: 432px;
+    width: 432px;
+  }
+
+  .album-cover-small-image {
+    display: inline-block;
+    width: 100%;
+    float: left;
+    width: 84px;
+    height: 84px;
+
+  }
+
+  .album-release-info {
+    display: block;
+    position: relative;
+    font: $oswaldItalic;
+    color: #2b2b2b;
+  }
+
+  .album-release-data {
+    display: inline-block;
+    font: $oswaldLight;
+
+  }
+
+
+
+
+
+
+
+
+
+
+//---------9 column page navigation-------
+
+
+  ul {
+      padding: 0;
+  }
+  ul li {
+      display: inline-block;     
+  }
+  ul li a {
+      background-color: white;
+      color: #5d5e5e;
+      font: $oswald;
+      padding: 10px 10px;
+      text-decoration: none;
+      border-radius: 4px 4px 0 0;
+  }
+  ul li a:hover {
+      background-color: orange;
+  }
+                        
+                  
+
+
+
+
+
+
+
+
+
