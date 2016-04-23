@@ -1965,20 +1965,21 @@ button {
   float: left;
   height: 300px;
   width: 100%;
-  padding: 20px 20px 20px 20px; }
+  padding: 20px 5px 20px 5px; }
 
 .album-image {
   position: relative;
   display: block;
   height: 205px;
-  width: 205px;
-  padding-bottom: 5px; }
+  width: 100%;
+  padding-bottom: 0px; }
 
 .album-title {
   position: relative;
   display: block;
   font: normal normal 1.5rem "Oswald";
   color: #5d5e5e;
+  padding-top: 5px;
   text-align: left; }
 
 .album-artist {
@@ -2060,7 +2061,7 @@ button {
 
 .page-content-header-text-alt {
   color: #a6a6a6;
-  font: normal bold 1.5rem "Montserrat"; }
+  font: normal lighter 1.5rem "Oswald"; }
 
 .page-content-modifier-text-alt {
   font: italic lighter 1.5rem "Oswald"; }
@@ -2189,9 +2190,10 @@ ul li a:hover {
   padding-bottom: 10px;
   padding-top: 10px; }
 
-.album-cover {
-  position: relative;
-  width: 100%; }
+.sort-bar {
+  position: inline-block;
+  float: right;
+  font: normal lighter 1.5rem "Oswald"; }
 
 .one-copy-block-object {
   padding: 10px 0px; }

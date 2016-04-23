@@ -204,18 +204,19 @@
     float: left;
     height: 300px;
     width: 100%;
-    padding: 20px 20px 20px 20px;}
+    padding: 20px 5px 20px 5px;}
  .album-image {
     position: relative;
     display: block;
     height: 205px;
-    width: 205px;
-    padding-bottom: 5px;}
+    width: 100%;
+    padding-bottom: 0px;}
  .album-title {
     position: relative;
     display: block;
     font: $oswald;
     color: #5d5e5e;
+    padding-top: 5px;
     text-align: left;}
  .album-artist {
     position: relative;
@@ -310,12 +311,11 @@
       border-left-width: 0px;
       border-right-width: 0px;
       border-color: #a6a6a6;
-      // border-bottom-color: #a6a6a6;
       border-style: solid;
   }
   .page-content-header-text-alt {
       color: #a6a6a6;
-      font: $montserrat;
+      font: $oswaldLight;
    }
   .page-content-modifier-text-alt {
       font: $oswaldItalic;
