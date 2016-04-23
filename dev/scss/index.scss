@@ -88,7 +88,7 @@
       display: block;
       width: 100%;
       height: 93px;
-      padding: 0px 20px;
+      padding: 0px 0px;
       }
 
   .vinyl-archive-header-background-image {
@@ -295,6 +295,39 @@
 
   }
 
+
+//--9 column page content header - ALT------
+
+  .page-content-header-object-alt {
+    padding: 10px 0px;
+  }
+  .page-content-header-alt {
+      background-color: #FFFFFF;
+      width: 100%;
+      padding: 10px 10px;
+      border-top-width: 2px;
+      border-bottom-width: 2px;
+      border-left-width: 0px;
+      border-right-width: 0px;
+      border-color: #a6a6a6;
+      // border-bottom-color: #a6a6a6;
+      border-style: solid;
+  }
+  .page-content-header-text-alt {
+      color: #a6a6a6;
+      font: $montserrat;
+   }
+  .page-content-modifier-text-alt {
+      font: $oswaldItalic;
+  }
+  .link-text-alt {
+      position: block;
+      float: right;
+      color: #a6a6a6;
+      font: $montserrat;
+      text-decoration: none;
+
+  }
 
 
 
