@@ -2022,6 +2022,9 @@ button {
   text-align: left;
   padding-left: 10px; }
 
+.page-content-header-object {
+  padding: 10px 0px; }
+
 .page-content-header {
   background-color: #5d5e5e;
   width: 100%;
