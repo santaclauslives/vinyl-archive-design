@@ -1833,8 +1833,8 @@ button {
   font: normal normal 1.5rem "Oswald"; }
 
 .default-body-text {
-  font: normal normal 1.5rem "Oswald";
-  color: #5d5e5e; }
+  font: normal lighter 1.5rem "Oswald";
+  color: #a6a6a6; }
 
 .album_detail_title {
   font: normal bold 1.875rem "Yanone Kaffeesatz";
@@ -1885,21 +1885,36 @@ button {
   display: inline-block; }
 
 .vinyl-archive-header {
-  background-color: black;
+  position: relative;
+  display: block;
   width: 100%;
-  height: 100px;
+  height: 93px;
   padding: 0px 20px; }
 
+.vinyl-archive-header-background-image {
+  position: relative;
+  background-image: "/images/record-background2.png";
+  background-color: black; }
+
+.vinyl-archive-header-background-image-alt {
+  position: relative;
+  background: transparent; }
+
 .vinyl-archive-header-text {
+  position: absolute;
+  top: 25px;
+  left: 151px;
   color: #FFFFFF;
   display: inline-block;
   font: normal normal 1.5rem "Oswald";
-  padding-top: 30px;
+  padding-top: 00px;
   padding-left: 20px; }
 
 .icon {
   float: left;
-  position: relative;
+  position: absolute;
+  top: 0px;
+  left: 50px;
   display: inline-block;
   font: normal normal 80px "HN-icons";
   padding: 10px 10px;
@@ -1910,13 +1925,39 @@ button {
   padding-left: 10px; }
 
 .link-text-vinyl-archive-header {
+  position: relative;
+  top: -84px;
   float: right;
   display: block;
   color: white;
   font: normal bold 1.5rem "Montserrat";
   text-decoration: none;
   vertical-align: middle;
-  padding-top: 30px; }
+  padding-top: 30px;
+  padding-right: 20px; }
+
+.four-column-text-entry-object {
+  position: absolute;
+  width: 33.3%;
+  background-image: "/images/header-footer-backgrounds/record-background.png";
+  vertical-align: middle; }
+
+.four-column-text-entry-box-title {
+  display: block;
+  position: relative;
+  font: normal lighter 1.5rem "Oswald";
+  color: white;
+  width: 100%;
+  text-align: center;
+  background: black; }
+
+.four-column-text-entry-box {
+  display: block;
+  position: relative;
+  height: 40px;
+  width: 100%;
+  border-radius: 10px 10px;
+  color: white; }
 
 .one-album-object {
   position: relative;
@@ -2008,7 +2049,13 @@ button {
 
 .page-content-divider-text {
   color: #FFFFFF;
-  font: normal bold 1.5rem "Montserrat"; }
+  font: normal lighter 1.5rem "Oswald"; }
+
+.one-copy-block-object {
+  padding: 10px 0px; }
+
+.one-copy-block-text {
+  padding: 10px 0px; }
 
 .page-content-header {
   background-color: #5d5e5e;
@@ -2104,5 +2151,21 @@ ul li a:hover {
   height: 100%;
   display: block;
   background-image: "/images/header-footer-backgrounds/record-background.png"; }
+
+.musician-photo-large {
+  position: relative;
+  width: 100%;
+  padding-bottom: 10px;
+  padding-top: 10px; }
+
+.album-cover {
+  position: relative;
+  width: 100%; }
+
+.one-copy-block-object {
+  padding: 10px 0px; }
+
+.one-copy-block-text {
+  padding: 10px 0px; }
 
 /*# sourceMappingURL=global.css.map */

@@ -6,9 +6,8 @@
 //--------Default text-----------
 
 .default-body-text {
-  font: $oswald;
-  // font-size: (rem24/16);
-  color: #5d5e5e;}
+  font: $oswaldLight;
+  color: #a6a6a6;}
 
   //--------Album detail title-----------
 
@@ -85,24 +84,43 @@
 
  //--------test end              
   .vinyl-archive-header {
-      background-color: black;
+      position: relative;
+      display: block;
       width: 100%;
-      height: 100px;
+      height: 93px;
       padding: 0px 20px;
+      }
+
+  .vinyl-archive-header-background-image {
+      position: relative;
+      background-image: "/images/record-background2.png";
+      background-color: black;
+
       
   }
+
+  .vinyl-archive-header-background-image-alt {
+      position: relative;
+      background: transparent;
+  }
+ 
   .vinyl-archive-header-text {
-      color: #FFFFFF;
-      display: inline-block;
-      font: $oswald;
-      padding-top: 30px;
-      padding-left: 20px;
+    position: absolute;
+    top: 25px;
+    left: 151px;
+    color: #FFFFFF;
+    display: inline-block;
+    font: normal normal 1.5rem "Oswald";
+    padding-top: 00px;
+    padding-left: 20px;
    
   }
 
   .icon {
       float: left;
-      position: relative;
+      position: absolute;
+      top: 0px;
+      left: 50px;
       display: inline-block;
       font: $icons;
       padding: 10px 10px;
@@ -114,16 +132,68 @@
       font: $oswaldLight;
       padding-left: 10px;
   }
-  .link-text-vinyl-archive-header {
-      float: right;
-      display: block;
-      color: white;
-      font: $montserrat;
-      text-decoration: none;
-      vertical-align: middle;
-      padding-top: 30px;
-  }
+   .link-text-vinyl-archive-header {
+       position: relative;
+       top: -84px;
+       float: right;
+       display: block;
+       color: white;
+       font: $montserrat;
+       text-decoration: none;
+       vertical-align: middle;
+       padding-top: 30px;
+       padding-right: 20px;
+   }
      
+
+
+// .link-text-vinyl-archive-header {
+//     position: relative;
+//     float: right;
+//     top: -84px;
+//     display: block;
+//     color: white;
+//     font: normal bold 1.5rem "Montserrat";
+//     text-decoration: none;
+//     vertical-align: middle;
+//     padding-top: 30px;
+//     padding-right: 20px;
+// }
+
+.four-column-text-entry-object {
+  position: absolute;
+  width: 33.3%; 
+  background-image: "/images/header-footer-backgrounds/record-background.png"; 
+  vertical-align: middle;
+
+
+
+}
+.four-column-text-entry-box-title {
+  display: block;
+  position: relative;
+  font: $oswaldLight;
+  color: white;
+  width: 100%;
+  text-align: center;
+  background: black;  
+}
+
+.four-column-text-entry-box {
+  display: block;
+  position: relative;
+  height: 40px;
+  width: 100%;
+  border-radius: 10px 10px;
+  color: white;
+    
+}
+
+// .index {
+  
+//   line-height: normal;
+//   width: 100%;
+// }
 
 //-----one album object - block format ---
 
@@ -240,14 +310,20 @@
   }
   .page-content-divider-text {
       color: #FFFFFF; 
-      font: $montserrat;
+      font: $oswaldLight;
       
    }
                 
 
+//------------3-column block of copy with header bar-------------
 
+.one-copy-block-object {
+  padding: 10px 0px;
+}
 
-
+.one-copy-block-text {
+  padding: 10px 0px;
+}
 
 
 //-------album page - 12 column page content header ---
