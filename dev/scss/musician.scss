@@ -13,13 +13,21 @@ padding-top: 10px;
 
 .spyglass {
 
-  display: inline-block;
+  display: block;
+  float: right;
   color: #a6a6a6;
-  width: 30px;
-  height: 100%
+  width: 20px;
+  height: 100%;
 }
 
 
+//fix height of main page header----------
+
+.small-12 {
+
+  height: 93px;
+  padding-bottom: 10px;
+}
 
 
 //sort bar on Albums section of musician page------------

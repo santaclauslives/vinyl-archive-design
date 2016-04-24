@@ -41,15 +41,21 @@
 //-----------------Reusable input box ---------
   .input-box {
       display: block;
+      appearance: none;
       border-radius: 5px;
       background-color: #efefef;
       width: 100%;
-      padding: 10px 10px;}
+      padding: 0px 0px;
+      margin: 20px 0px;}
   .input-box-text {
       font: $oswaldItalic;
       color: #5d5e5e;
-      padding-left: 15px;
+      appearance: none;
+      outline-color: #5d5e5e;
+      width: 500px;
+      padding: 5px 10px 5px 10px;
       border-width: 0px;
+      border-color: #5d5e5e;
   }
   ::-webkit-input-placeholder {
      background-color: #efefef;
@@ -109,7 +115,7 @@
     top: 25px;
     left: 151px;
     color: #FFFFFF;
-    display: inline-block;
+    display: block;
     font: $oswald;
     padding-top: 00px;
     padding-left: 20px;
@@ -119,6 +125,7 @@
   .icon {
       float: left;
       position: absolute;
+      height: 93px;
       top: 0px;
       left: 50px;
       display: inline-block;
@@ -469,9 +476,9 @@
 
 //---------9 column page navigation-------
 
-
   ul {
       padding: 0;
+      text-align: center;
   }
   ul li {
       display: inline-block;     
@@ -488,7 +495,36 @@
       background-color: orange;
   }
                         
-                  
+  //------ cargo from header alt
+
+    .pagination-object {
+    padding: 10px 0px;
+  }
+  .pageination-box {
+      background-color: #FFFFFF;
+      width: 100%;
+      padding: 10px 10px;
+      border-top-width: 2px;
+      // border-bottom-width: 2px;
+      border-left-width: 0px;
+      border-right-width: 0px;
+      border-color: #a6a6a6;
+      border-style: solid;
+  }
+  // .page-content-header-text-alt {
+  //     color: #a6a6a6;
+  //     font: $oswaldLight;
+  //  }
+  // .page-content-modifier-text-alt {
+  //     font: $oswaldItalic;
+  // }
+  // .link-text-alt {
+  //     position: block;
+  //     float: right;
+  //     color: #a6a6a6;
+  //     font: $montserrat;
+  //     text-decoration: none; 
+  //   }            
 
 //------12 column background art of vinyl album-----
 

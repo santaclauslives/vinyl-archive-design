@@ -1854,16 +1854,22 @@ button {
 
 .input-box {
   display: block;
+  appearance: none;
   border-radius: 5px;
   background-color: #efefef;
   width: 100%;
-  padding: 10px 10px; }
+  padding: 0px 0px;
+  margin: 20px 0px; }
 
 .input-box-text {
   font: italic lighter 1.5rem "Oswald";
   color: #5d5e5e;
-  padding-left: 15px;
-  border-width: 0px; }
+  appearance: none;
+  outline-color: #5d5e5e;
+  width: 500px;
+  padding: 5px 10px 5px 10px;
+  border-width: 0px;
+  border-color: #5d5e5e; }
 
 ::-webkit-input-placeholder {
   background-color: #efefef; }
@@ -1905,7 +1911,7 @@ button {
   top: 25px;
   left: 151px;
   color: #FFFFFF;
-  display: inline-block;
+  display: block;
   font: normal normal 1.5rem "Oswald";
   padding-top: 00px;
   padding-left: 20px; }
@@ -1913,6 +1919,7 @@ button {
 .icon {
   float: left;
   position: absolute;
+  height: 93px;
   top: 0px;
   left: 50px;
   display: inline-block;
@@ -2162,7 +2169,8 @@ button {
   font: normal lighter 1.5rem "Oswald"; }
 
 ul {
-  padding: 0; }
+  padding: 0;
+  text-align: center; }
 
 ul li {
   display: inline-block; }
@@ -2177,6 +2185,19 @@ ul li a {
 
 ul li a:hover {
   background-color: orange; }
+
+.pagination-object {
+  padding: 10px 0px; }
+
+.pageination-box {
+  background-color: #FFFFFF;
+  width: 100%;
+  padding: 10px 10px;
+  border-top-width: 2px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-color: #a6a6a6;
+  border-style: solid; }
 
 .vinyl-album-background-art {
   width: 100%;
@@ -2220,10 +2241,15 @@ ul li a:hover {
   padding-top: 10px; }
 
 .spyglass {
-  display: inline-block;
+  display: block;
+  float: right;
   color: #a6a6a6;
-  width: 30px;
+  width: 20px;
   height: 100%; }
+
+.small-12 {
+  height: 93px;
+  padding-bottom: 10px; }
 
 .sort-bar {
   position: inline-block;
