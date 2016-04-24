@@ -41,10 +41,10 @@
 //-----------------Reusable input box ---------
   .input-box {
       display: block;
-      border-radius: 10px;
+      border-radius: 5px;
       background-color: #efefef;
       width: 100%;
-      padding: 15px 15px;}
+      padding: 10px 10px;}
   .input-box-text {
       font: $oswaldItalic;
       color: #5d5e5e;
@@ -110,7 +110,7 @@
     left: 151px;
     color: #FFFFFF;
     display: inline-block;
-    font: normal normal 1.5rem "Oswald";
+    font: $oswald;
     padding-top: 00px;
     padding-left: 20px;
    
@@ -498,6 +498,57 @@
   display: block;
   background-image: "/images/header-footer-backgrounds/record-background.png";
 }
+
+
+//-------------Reusable page footer--------------
+
+.vinyl-archive-footer {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 93px;
+  padding: 0px 0px;
+  background-color: black;
+
+}
+
+//.vinyl-archive-footer-background-image {
+//  position: relative;
+//  display: block;
+//  background-image: "/images/footer-background2.png";
+//  background-width: 100%;
+ // background-height: 93px;
+// }
+
+.vinyl-archive-footer-text {
+   position: relative;
+    top: 25px;
+    left: 0px;
+    color: red;
+    display: inline-block;
+    font: $oswald;
+    padding-top: 00px;
+    padding-left: 20px;
+}
+.vinyl-archive-developer-credit {
+   position: relative;
+   float: right;
+    top: 25px;
+    left: 0px;
+    color: red;
+    display: inline-block;
+    font: $oswald;
+    padding-top: 00px;
+    padding-left: 20px;
+
+}
+
+
+
+ 
+
+
+
 
 
 
