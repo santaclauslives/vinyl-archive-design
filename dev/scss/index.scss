@@ -503,14 +503,14 @@
     .pagination-object {
     padding: 10px 0px;
   }
-  .pageination-box {
+  .pagination-box {
       background-color: #FFFFFF;
       width: 100%;
       padding: 10px 10px;
       border-top-width: 2px;
-      // border-bottom-width: 2px;
       border-left-width: 0px;
       border-right-width: 0px;
+      border-bottom-width: 0px;
       border-color: #a6a6a6;
       border-style: solid;
   }
@@ -569,11 +569,28 @@
 
 }
 
+//--------on artist page and musician page -----
+.social-media-icon {
+  position: inline-block;
+  font: $icons;
+  font-size: 48px;
+  float: right;
 
-
+}
  
 
+//   .icon {
+//       float: left;
+//       position: absolute;
+//       height: 93px;
+//       top: 0px;
+//       left: 50px;
+//       display: inline-block;
+//       font: $icons;
+//       padding: 10px 10px;
+//       background-color: white;
 
+// }
 
 
 

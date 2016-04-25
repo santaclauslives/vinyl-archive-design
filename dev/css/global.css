@@ -2212,13 +2212,14 @@ ul li a:hover {
 .pagination-object {
   padding: 10px 0px; }
 
-.pageination-box {
+.pagination-box {
   background-color: #FFFFFF;
   width: 100%;
   padding: 10px 10px;
   border-top-width: 2px;
   border-left-width: 0px;
   border-right-width: 0px;
+  border-bottom-width: 0px;
   border-color: #a6a6a6;
   border-style: solid; }
 
@@ -2256,6 +2257,12 @@ ul li a:hover {
   font: normal normal 1.5rem "Oswald";
   padding-top: 00px;
   padding-left: 20px; }
+
+.social-media-icon {
+  position: inline-block;
+  font: normal normal 80px "HN-icons";
+  font-size: 48px;
+  float: right; }
 
 .musician-photo-large {
   position: relative;
