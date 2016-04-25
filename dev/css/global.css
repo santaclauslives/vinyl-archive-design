@@ -1852,21 +1852,24 @@ button {
   font: italic lighter 1.5rem "Oswald";
   color: #a6a6a6; }
 
+.action-header {
+  padding: 20px 0px 20px 0px; }
+
 .input-box {
   display: block;
   appearance: none;
   border-radius: 5px;
   background-color: #efefef;
-  width: 100%;
+  width: 500px;
   padding: 0px 0px;
-  margin: 20px 0px; }
+  margin: 0px 0px; }
 
 .input-box-text {
   font: italic lighter 1.5rem "Oswald";
   color: #5d5e5e;
   appearance: none;
   outline-color: #5d5e5e;
-  width: 500px;
+  width: 300px;
   padding: 5px 10px 5px 10px;
   border-width: 0px;
   border-color: #5d5e5e; }
@@ -1876,6 +1879,16 @@ button {
 
 :placeholder-shown {
   border: none; }
+
+.spyglass {
+  position: relative;
+  display: block;
+  background-height: 44px;
+  background-width: 44px;
+  background-color: red;
+  color: #a6a6a6;
+  width: 15px;
+  height: 100%; }
 
 .title-bar {
   display: block;
@@ -2000,7 +2013,7 @@ button {
   position: relative;
   display: block;
   float: left;
-  height: 100px;
+  height: 120px;
   width: 100%;
   padding: 20px 20px 20px 20px; }
 
@@ -2010,25 +2023,21 @@ button {
   display: block;
   height: 55px;
   width: 55px;
-  padding-bottom: 5px;
-  padding-left: 10px; }
+  margin-right: 10px; }
 
 .album-list-title {
   position: relative;
   display: block;
-  float: left;
   font: normal normal 1.5rem "Oswald";
   color: #5d5e5e;
-  text-align: left;
-  padding-left: 10px; }
+  text-align: left; }
 
 .album-list-artist {
-  float: left;
+  position: relative;
   display: block;
   font: italic lighter 1.5rem "Oswald";
   color: #5d5e5e;
-  text-align: left;
-  padding-left: 10px; }
+  text-align: left; }
 
 .page-content-header-object {
   padding: 10px 0px; }
@@ -2239,13 +2248,6 @@ ul li a:hover {
   width: 100%;
   padding-bottom: 10px;
   padding-top: 10px; }
-
-.spyglass {
-  display: block;
-  float: right;
-  color: #a6a6a6;
-  width: 20px;
-  height: 100%; }
 
 .small-12 {
   height: 93px;

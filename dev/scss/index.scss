@@ -39,20 +39,26 @@
   }
 
 //-----------------Reusable input box ---------
+
+  .action-header {
+    padding: 20px 0px 20px 0px;
+  }
+
+
   .input-box {
       display: block;
       appearance: none;
       border-radius: 5px;
       background-color: #efefef;
-      width: 100%;
+      width: 500px;
       padding: 0px 0px;
-      margin: 20px 0px;}
+      margin: 0px 0px;}
   .input-box-text {
       font: $oswaldItalic;
       color: #5d5e5e;
       appearance: none;
       outline-color: #5d5e5e;
-      width: 500px;
+      width: 300px;
       padding: 5px 10px 5px 10px;
       border-width: 0px;
       border-color: #5d5e5e;
@@ -63,6 +69,21 @@
   :placeholder-shown {
       border: none;
   }
+
+.spyglass {
+  position: relative;
+  display: block;
+  background-height: 44px;
+  background-width: 44px;
+  background-color: red;
+  color: #a6a6a6;
+  width: 15px;
+  height: 100%;}
+
+
+
+
+
 
 
 //----------reusable vinyl archive header ----
@@ -153,28 +174,11 @@
    }
      
 
-
-// .link-text-vinyl-archive-header {
-//     position: relative;
-//     float: right;
-//     top: -84px;
-//     display: block;
-//     color: white;
-//     font: normal bold 1.5rem "Montserrat";
-//     text-decoration: none;
-//     vertical-align: middle;
-//     padding-top: 30px;
-//     padding-right: 20px;
-// }
-
 .four-column-text-entry-object {
   position: absolute;
   width: 33.3%; 
   background-image: "/images/header-footer-backgrounds/record-background.png"; 
   vertical-align: middle;
-
-
-
 }
 .four-column-text-entry-box-title {
   display: block;
@@ -193,14 +197,7 @@
   width: 100%;
   border-radius: 10px 10px;
   color: white;
-    
 }
-
-// .index {
-  
-//   line-height: normal;
-//   width: 100%;
-// }
 
 //-----one album object - block format ---
 
@@ -245,7 +242,7 @@
     position: relative;
     display: block;
     float: left;
-    height: 100px;
+    height: 120px;
     width: 100%;
     padding: 20px 20px 20px 20px;}
  .album-list-image {
@@ -253,26 +250,20 @@
     float: left;
     display: block;
     height: 55px;
-    width: 55px;
-    padding-bottom: 5px;
-    padding-left: 10px;}
+    width: 55px; 
+    margin-right: 10px;}
  .album-list-title {
     position: relative;
     display: block;
-    float: left;
     font: $oswald;
     color: #5d5e5e;
-    text-align: left;
-    padding-left: 10px;}
+    text-align: left;}
  .album-list-artist {
-    // position: relative;
-    float: left;
+    position: relative;
     display: block;
     font: $oswaldItalic;
     color: #5d5e5e;
-    text-align: left;
-    padding-left: 10px;
-}
+    text-align: left;}
 
 
 
@@ -511,20 +502,7 @@
       border-color: #a6a6a6;
       border-style: solid;
   }
-  // .page-content-header-text-alt {
-  //     color: #a6a6a6;
-  //     font: $oswaldLight;
-  //  }
-  // .page-content-modifier-text-alt {
-  //     font: $oswaldItalic;
-  // }
-  // .link-text-alt {
-  //     position: block;
-  //     float: right;
-  //     color: #a6a6a6;
-  //     font: $montserrat;
-  //     text-decoration: none; 
-  //   }            
+            
 
 //------12 column background art of vinyl album-----
 
