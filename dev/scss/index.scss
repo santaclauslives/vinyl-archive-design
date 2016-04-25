@@ -40,12 +40,7 @@
 
 //-----------------Reusable input box ---------
 
-  .action-header {
-    padding: 20px 0px 20px 0px;
-  }
-
-
-  .input-box {
+.input-box {
       display: block;
       appearance: none;
       border-radius: 5px;
@@ -61,28 +56,45 @@
       width: 300px;
       padding: 5px 10px 5px 10px;
       border-width: 0px;
-      border-color: #5d5e5e;
+      border-color: #5d5e5e;}
+
+//---------search box----------
+
+  .action-header {
+    padding: 20px 0px 20px 0px;
   }
-  ::-webkit-input-placeholder {
-     background-color: #efefef;
-  }
-  :placeholder-shown {
-      border: none;
-  }
 
-.spyglass {
-  position: relative;
-  display: block;
-  background-height: 44px;
-  background-width: 44px;
-  background-color: red;
-  color: #a6a6a6;
-  width: 15px;
-  height: 100%;}
+.search-bar {
+      display: block;
+      float: left;
+      border-radius: 5px;
+      background-color: #efefef;
+      width: 400px;
+      padding: 0px 0px;
+      margin: 0px 0px;}
+  .search-bar-text {
+      font: $oswaldItalic;
+      color: #5d5e5e;
+      appearance: none;
+      width: 400px;
+      padding: 5px 10px 5px 10px;
+      border-width: 0px;}
+  .spyglass {
+    display: inline-block;
+    position: absolute;
+    left: 598px;
+    top: 127px;
+    color: #a6a6a6;
+    width: 20px;
+    height: 20px;}
 
+    //--------navigation icons---------
 
-
-
+    .navigation-icon {
+      height: 48px;
+      width: 100%;
+      ;
+    }
 
 
 
@@ -276,7 +288,7 @@
   .page-content-header {
       background-color: #5d5e5e;
       width: 100%;
-      padding: 10px 10px;
+      padding: 13px 10px;
   }
   .page-content-header-text {
       color: #FFFFFF;
