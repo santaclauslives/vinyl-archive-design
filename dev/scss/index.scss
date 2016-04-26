@@ -181,7 +181,7 @@
        font: $montserrat;
        text-decoration: none;
        vertical-align: middle;
-       padding-top: 30px;
+       padding-top: 20px;
        padding-right: 20px;
    }
      
@@ -288,7 +288,7 @@
   .page-content-header {
       background-color: #5d5e5e;
       width: 100%;
-      padding: 13px 10px;
+      padding: 13px 10px 12px 10px;
   }
   .page-content-header-text {
       color: #FFFFFF;
@@ -400,16 +400,24 @@
 
 //---------album page - album page track list---
 
+  .album-detail-object {
 
+  }
   .album-detail-title {
       display: block;
-      font: YanoneKaffeesatz-Bold;
-      color: #5d5e5e;
+      font: $yanone;
+      color: #868686;
+      font-size: 42px;
   }
   .album-detail-artist {
       display: block;
-      font: $oswald;
-      color: #a6a6a6;
+      font: $oswaldLight;
+      color: #868686;
+  }
+
+  .album-track-list-object {
+    margin: 20px 0px;
+
   }
   .album-track-number {
       display: inline-block;
@@ -424,7 +432,7 @@
   .album-track-info {
       display: inline-block;
       font: $oswaldItalic;
-      color: #2b2b2b;
+      color: #a6a6a6;
   }
   
 
@@ -436,6 +444,7 @@
     display: block;
     padding: 10px 10px;
     float: left;
+    height: 100%;
 
   }
 
@@ -452,7 +461,7 @@
     float: left;
     width: 84px;
     height: 84px;
-
+    margin: 10px 0px;
   }
 
   .album-release-info {
@@ -531,20 +540,24 @@
 .vinyl-archive-footer {
   position: relative;
   display: block;
-  width: 100%;
+  width: 1000px;
   height: 93px;
   padding: 0px 0px;
-  background-color: black;
+  margin-left: -15px;
+  // background-color: black;
 
 }
 
-//.vinyl-archive-footer-background-image {
-//  position: relative;
-//  display: block;
-//  background-image: "/images/footer-background2.png";
-//  background-width: 100%;
- // background-height: 93px;
-// }
+.vinyl-archive-footer-background-image {
+  // position: relative;
+  // display: block;
+  // float: left;
+  background-image: "/images/footer-background2.png";
+  // background-width: 1000px;
+  // background-height: 93px;
+  background-repeat: repeat;
+
+}
 
 .vinyl-archive-footer-text {
    position: relative;
@@ -573,27 +586,54 @@
 .social-media-icon {
   position: inline-block;
   font: $icons;
-  font-size: 48px;
+  font-size: 24px;
   float: right;
+  padding: 10px 5px;
+  color: #a6a6a6;
 
 }
  
+.social-media-links-text {
+  position: inline-block;
+  float: right;
+  padding: 10px 5px;
+  font: $oswaldItalic;
 
-//   .icon {
-//       float: left;
-//       position: absolute;
-//       height: 93px;
-//       top: 0px;
-//       left: 50px;
-//       display: inline-block;
-//       font: $icons;
-//       padding: 10px 10px;
-//       background-color: white;
+}
 
-// }
+//-----------------bullet list on artist page------
 
+.artist {
 
+    
+    list-style-type: none;
+}
 
+.artist-text {
 
+  padding: 10px 0px;
+}
+
+//-----------lower bar on 9 col artist page-----------
+
+.container {
+  background-color: white;
+  max-width: 1000px;
+  height: 100%;
+  padding-left: 15px;
+  background-position: center;
+}
+
+.site-background {
+  background-color: #5d5e5e;
+  height: 100%;
+  width: 100%;
+}
+
+.album-musician-page {
+
+  display: block;
+  float: left;
+}
 
 
