@@ -477,10 +477,25 @@
 
   }
 
+//---------album page other info paragraph----
+
+.other-info-header {
+  display: block;
+  position: relative;
+  font: $oswaldItalic;
+  color: #2b2b2b;
 
 
+}
 
+.other-info-text {
+  display: block;
+  position: relative;
+  font: $oswaldLight;
+  color: #868686;
+  padding: 20px 0px;
 
+}
 
 
 

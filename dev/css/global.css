@@ -2197,6 +2197,19 @@ button {
   display: inline-block;
   font: normal lighter 1.5rem "Oswald"; }
 
+.other-info-header {
+  display: block;
+  position: relative;
+  font: italic lighter 1.5rem "Oswald";
+  color: #2b2b2b; }
+
+.other-info-text {
+  display: block;
+  position: relative;
+  font: normal lighter 1.5rem "Oswald";
+  color: #868686;
+  padding: 20px 0px; }
+
 ul {
   padding: 0;
   text-align: center; }
