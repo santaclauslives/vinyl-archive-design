@@ -1970,6 +1970,24 @@ button {
   padding-top: 20px;
   padding-right: 20px; }
 
+.vinyl-archive-header-admin-pages {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 93px;
+  padding: 0px 0px;
+  top: -93px; }
+
+.link-text-vinyl-archive-header-admin-pages {
+  position: relative;
+  float: right;
+  display: block;
+  color: white;
+  font: normal bold 1.5rem "Montserrat";
+  text-decoration: none;
+  padding-top: 30px;
+  padding-right: 20px; }
+
 .four-column-text-entry-object {
   position: absolute;
   width: 33.3%;
@@ -2323,13 +2341,6 @@ ul li a:hover {
 .album-musician-page {
   display: block;
   float: left; }
-
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  height: 93px;
-  width: 100%; }
 
 .musician-photo-large {
   position: relative;
