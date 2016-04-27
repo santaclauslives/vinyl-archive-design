@@ -444,7 +444,8 @@
     display: block;
     padding: 10px 10px;
     float: left;
-    height: 100%;
+    // height: 100%;
+    height: 800px;
 
   }
 
@@ -464,16 +465,28 @@
     margin: 10px 0px;
   }
 
+  .album-release-text-object {
+    display: block;
+    position: relative;
+    margin: 20px 0px 20px 0px;
+    height: 100%;
+    width: 100%;
+  }
+
   .album-release-info {
     display: block;
     position: relative;
+    list-style-type: none;
     font: $oswaldItalic;
     color: #2b2b2b;
   }
 
   .album-release-data {
     display: inline-block;
+    list-style-type: none;
     font: $oswaldLight;
+    color: #cecece;
+
 
   }
 
@@ -559,20 +572,20 @@
   height: 93px;
   padding: 0px 0px;
   margin-left: -15px;
-  // background-color: black;
+  background-color: gray; 
 
 }
 
-.vinyl-archive-footer-background-image {
+// .vinyl-archive-footer-background-image {
   // position: relative;
   // display: block;
   // float: left;
-  background-image: "/images/footer-background2.png";
+  // background-image: "/images/footer-background2.png";
   // background-width: 1000px;
   // background-height: 93px;
-  background-repeat: repeat;
+  // background-repeat: repeat;
 
-}
+// }
 
 .vinyl-archive-footer-text {
    position: relative;
@@ -650,5 +663,17 @@
   display: block;
   float: left;
 }
+
+//-------------------------
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 93px;
+  width: 100%; }
+
+
+
 
 
