@@ -1993,7 +1993,8 @@ button {
   width: 100%;
   vertical-align: middle;
   top: -500px;
-  right: -341px; }
+  right: -341px;
+  margin: 10px 0px; }
 
 .four-column-text-entry-box-title {
   display: block;
@@ -2001,8 +2002,7 @@ button {
   font: normal lighter 1.5rem "Oswald";
   color: white;
   width: 100%;
-  text-align: center;
-  background: black; }
+  text-align: center; }
 
 .four-column-text-entry-box {
   display: block;
@@ -2376,6 +2376,112 @@ ul li a:hover {
   color: white;
   margin: 15px 0px;
   text-align: center; }
+
+.four-column-biography-text-entry-object {
+  position: relative;
+  width: 100%;
+  vertical-align: middle;
+  top: -553px;
+  right: -341px;
+  margin: 10px 0px; }
+
+.four-column-biography-text-entry-box-title {
+  display: block;
+  position: relative;
+  font: normal lighter 1.5rem "Oswald";
+  color: white;
+  width: 100%;
+  text-align: center;
+  background: none; }
+
+.four-column-biography-text-entry-box {
+  display: block;
+  position: relative;
+  height: 175px;
+  width: 100%;
+  border-radius: 10px 10px;
+  color: #5d5e5e;
+  font: normal normal 1.5rem "Oswald"; }
+
+.four-column-explanatory-text {
+  display: block;
+  position: relative;
+  font: italic lighter 1rem "Oswald";
+  color: #cecece; }
+
+.four-column-extra-info-text-entry-object {
+  position: relative;
+  width: 100%;
+  vertical-align: middle;
+  top: -553px;
+  right: -341px;
+  margin: 10px 0px; }
+  .four-column-extra-info-text-entry-object .four-column-extra-info-text-entry-box-title {
+    display: block;
+    position: relative;
+    font: normal lighter 1.5rem "Oswald";
+    color: white;
+    width: 100%;
+    text-align: center;
+    background: none; }
+
+.two-column-add-tracks-one-text-entry-box-title {
+  display: block;
+  position: relative;
+  font: normal lighter 1.5rem "Oswald";
+  color: white;
+  width: 100%;
+  text-align: center;
+  background: none; }
+
+.two-column-text-entry-box {
+  display: block;
+  position: relative;
+  height: 40px;
+  width: 100%;
+  border-radius: 10px 10px;
+  color: black;
+  font: normal lighter 1.5rem "Oswald";
+  top: -486px;
+  right: -341px; }
+
+.two-column-explanatory-text {
+  display: block;
+  position: relative;
+  font: italic lighter 1rem "Oswald";
+  color: #cecece;
+  right: -488px;
+  top: -601px; }
+
+.plus-sign-icon {
+  display: block;
+  position: relative;
+  font: normal lighter 1.5rem "Oswald";
+  font-size: 54px;
+  color: black;
+  top: -584px;
+  right: -650px;
+  border-color: none;
+  background-size: 40px 0px;
+  background-color: #cecece; }
+
+.four-column-add-tracks-text-entry-object {
+  position: relative;
+  width: 100%;
+  vertical-align: middle;
+  top: -496px;
+  right: -341px;
+  margin: 10px 0px; }
+
+.add-tracks-pagination {
+  position: relative;
+  display: block;
+  color: #5d5e5e;
+  font: normal normal 1.5rem "Oswald";
+  text-decoration: none;
+  border-radius: 4px 4px 0 0;
+  top: -586px;
+  right: -427px; }
 
 .musician-photo-large {
   position: relative;
