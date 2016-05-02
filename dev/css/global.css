@@ -2483,6 +2483,119 @@ ul li a:hover {
   top: -586px;
   right: -427px; }
 
+.vinyl-archive-footer-option {
+  width: 8px;
+  height: 8px;
+  background-width: 960px;
+  background-height: 93px;
+  background: "images/footer-background_2x.png";
+  background-repeat: repeat;
+  margin-bottom: 40px;
+  /* Standard syntax */ }
+
+.vinyl-archive-footer-experiment {
+  color: white;
+  background: linear-gradient(to bottom, #cecece, #cecece 12%, #222222 12%, #222222);
+  background-size: 100% 8px; }
+
+.v-a-footer-background {
+  color: white;
+  background: linear-gradient(to bottom, #868686, #868686 12%, #222222 12%, #222222);
+  background-size: 100% 8px;
+  max-height: 93px;
+  padding: 30px 0px 0px 0px; }
+
+.v-a-footer-text {
+  color: white;
+  font: normal normal 1.5rem "Oswald";
+  font-size: 18px;
+  margin-left: 10px; }
+
+.v-a-footer-image {
+  display: inline-block;
+  position: relative;
+  max-height: 30px;
+  max-width: auto;
+  content: "/images/bulu-box.png";
+  margin-left: 10px;
+  top: -80px;
+  right: -96px; }
+
+.v-a-footer-design-credit-text {
+  color: white;
+  font: normal normal 1.5rem "Oswald";
+  font-size: 18px;
+  margin-left: 10px;
+  display: inline-block;
+  position: relative; }
+
+.v-a-footer-design-credit-image {
+  display: block;
+  position: relative;
+  float: right;
+  max-height: 50px;
+  max-width: auto;
+  content: "/images/omaha-code-school.png";
+  margin-left: 10px;
+  top: -182px;
+  left: -30px; }
+
+.v-a-footer-container2 {
+  width: 1000px;
+  height: 93px; }
+
+.v-a-footer-background2 {
+  color: white;
+  background: linear-gradient(to bottom, #868686, #868686 12%, #222222 12%, #222222);
+  background-size: 100% 8px;
+  height: 93px; }
+
+.v-a-footer-text2 {
+  color: white;
+  font: normal normal 1.5rem "Oswald";
+  font-size: 18px;
+  margin-left: 10px; }
+
+.v-a-footer-image2 {
+  display: inline-block;
+  position: relative;
+  max-height: 30px;
+  max-width: auto;
+  margin-left: 10px; }
+
+.v-a-footer-design-credit-image2 {
+  display: block;
+  position: relative;
+  float: right;
+  max-height: 50px;
+  max-width: auto;
+  margin-left: 10px;
+  top: -182px;
+  left: -30px; }
+
+.v-a-footer-design-credit-text2 {
+  color: white;
+  font: normal normal 1.5rem "Oswald";
+  font-size: 18px;
+  margin-left: 10px;
+  display: block;
+  position: relative; }
+
+.module {
+  background: red;
+  border: 1px solid #ccc;
+  margin: 3%; }
+  .module > h2 {
+    padding: 1rem;
+    margin: 0 0 0.5rem 0; }
+  .module > p {
+    padding: 0 1rem; }
+
+.stripe-5 {
+  color: orange;
+  background: linear-gradient(to bottom, #5d9634, #5d9634 50%, #538c2b 50%, #538c2b);
+  background-size: 100% 20px; }
+
 .musician-photo-large {
   position: relative;
   width: 100%;

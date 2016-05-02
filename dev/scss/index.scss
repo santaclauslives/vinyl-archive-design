@@ -866,4 +866,245 @@
 
 }
 
+.vinyl-archive-footer-option {
 
+width: 8px;
+height: 8px;
+background-width: 960px;
+background-height: 93px;
+background: "images/footer-background_2x.png";
+background-repeat: repeat;
+margin-bottom: 40px;
+
+
+/* Standard syntax */
+// background: repeating-linear-gradient; 
+
+// (to bottom
+
+//   #black 95%,
+//   #white 5%);
+// background-height: 93px;
+// background-width: 100%;
+
+
+// background-color: black;
+//  background: linear-gradient(top, white 5%, black 5%);
+//  background-size: 960px 8px;
+//  background-repeat: repeat-y;
+
+
+}
+
+.vinyl-archive-footer-experiment {
+
+    color: white;
+    background: linear-gradient(to bottom, #cecece, #cecece 12%, #222222 12%, #222222);
+    background-size: 100% 8px;
+}
+
+// background: -webkit-linear-gradient(top, #cecece, #cecece 12%, #5d5e5e 12%, #5d5e5e);
+
+
+ //This is all upside down. Make the container, 1000 x 93, make the 
+ //background, also 1000x93, make the text and the images all left
+ //to right on a line, save as a unit.
+
+ //I think I have found 500 ways not to do front end design, and a 
+ //few ways to do it. The block is my friend. Make the block, 
+ //fill the block, use the block where you need it over and over.
+
+
+//v-a-footer-container
+
+//v-a-footer-background
+
+.v-a-footer-background{
+    color: white;
+    background: linear-gradient(
+      to bottom, 
+      #868686, 
+      #868686 12%, 
+      #222222 12%, 
+      #222222);
+  
+    background-size: 100% 8px;
+      max-height: 93px;
+      padding: 30px 0px 0px 0px;
+}
+
+//v-a-footer-text
+
+.v-a-footer-text{
+
+  color:white;
+  font: $oswald;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+//v-a-footer-image
+
+.v-a-footer-image{
+
+    display: inline-block;
+    position: relative;
+    max-height: 30px;
+    max-width: auto;
+    content: "/images/bulu-box.png";
+    margin-left: 10px;
+    top: -80px;
+    right: -96px;
+}
+
+//close background
+
+//close container
+
+
+
+
+
+
+
+
+
+
+
+
+.v-a-footer-design-credit-text {
+
+    color: white;
+    font: $oswald;
+    font-size: 18px;
+    margin-left: 10px;
+    display: inline-block;
+    position: relative;
+    // top: -126px;
+    // right: -795px;
+    // margin-left: 10px;
+  
+}
+
+.v-a-footer-design-credit-image {
+
+    display: block;
+    position: relative;
+    float: right;
+    max-height: 50px;
+    max-width: auto;
+    content: "/images/omaha-code-school.png";
+    margin-left: 10px;
+    top: -182px;
+    left: -30px;
+}
+
+
+
+//v-a-footer-container 
+
+.v-a-footer-container2 {
+  width: 1000px;
+  height: 93px;
+ 
+
+
+}
+  
+//v-a-footer-background2
+
+.v-a-footer-background2{
+
+    color: white;
+    background: linear-gradient(to bottom, #868686, #868686 12%, #222222 12%, #222222);
+    background-size: 100% 8px;
+    height: 93px;
+    
+}
+
+//v-a-footer-text2
+
+.v-a-footer-text2{
+
+  color:white;
+  font: $oswald;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+//v-a-footer-image2
+
+.v-a-footer-image2{
+
+    display: inline-block;
+    position: relative;
+    max-height: 30px;
+    max-width: auto;
+    // content: "/images/bulu-box.png";
+    margin-left: 10px;
+    // top: -80px;
+    // right: -96px;
+}
+
+.v-a-footer-design-credit-image2 {
+
+    display: block;
+    position: relative;
+    float: right;
+    max-height: 50px;
+    max-width: auto;
+    // content: "/images/omaha-code-school.png";
+    margin-left: 10px;
+    top: -182px;
+    left: -30px;
+}
+
+.v-a-footer-design-credit-text2 {
+
+    color: white;
+    font: $oswald;
+    font-size: 18px;
+    margin-left: 10px;
+    display: block;
+    position: relative;
+  
+}
+
+
+//close background
+
+//close container
+
+
+
+
+
+
+
+
+// used as a model for my pinstripe background
+.module {
+  background: red;
+  border: 1px solid #ccc;
+  margin: 3%;
+  > h2 {
+    padding: 1rem;
+    margin: 0 0 0.5rem 0;
+  }
+  > p {
+    padding: 0 1rem;
+  }
+}
+
+.stripe-5 {
+  color: orange;
+  background: linear-gradient(
+    to bottom,
+    #5d9634,
+    #5d9634 50%,
+    #538c2b 50%,
+    #538c2b
+  );
+  background-size: 100% 20px;
+}
+ 
