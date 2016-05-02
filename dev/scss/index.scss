@@ -682,6 +682,8 @@
 
 //-----------lower bar on 9 col artist page-----------
 
+// begin full page container stuff---------------------
+
 .container {
   background-color: white;
   max-width: 1000px;
@@ -703,6 +705,10 @@
   height: 100%;
   width: 100%;
 }
+
+//-----end of full page container stuff-----
+
+// ----not sure why this is here------------
 
 .album-musician-page {
 
@@ -915,96 +921,11 @@ margin-bottom: 40px;
  //fill the block, use the block where you need it over and over.
 
 
-//v-a-footer-container
 
-//v-a-footer-background
-
-.v-a-footer-background{
-    color: white;
-    background: linear-gradient(
-      to bottom, 
-      #868686, 
-      #868686 12%, 
-      #222222 12%, 
-      #222222);
-  
-    background-size: 100% 8px;
-      max-height: 93px;
-      padding: 30px 0px 0px 0px;
-}
-
-//v-a-footer-text
-
-.v-a-footer-text{
-
-  color:white;
-  font: $oswald;
-  font-size: 18px;
-  margin-left: 10px;
-}
-
-//v-a-footer-image
-
-.v-a-footer-image{
-
-    display: inline-block;
-    position: relative;
-    max-height: 30px;
-    max-width: auto;
-    content: "/images/bulu-box.png";
-    margin-left: 10px;
-    top: -80px;
-    right: -96px;
-}
-
-//close background
-
-//close container
-
-
-
-
-
-
-
-
-
-
-
-
-.v-a-footer-design-credit-text {
-
-    color: white;
-    font: $oswald;
-    font-size: 18px;
-    margin-left: 10px;
-    display: inline-block;
-    position: relative;
-    // top: -126px;
-    // right: -795px;
-    // margin-left: 10px;
-  
-}
-
-.v-a-footer-design-credit-image {
-
-    display: block;
-    position: relative;
-    float: right;
-    max-height: 50px;
-    max-width: auto;
-    content: "/images/omaha-code-school.png";
-    margin-left: 10px;
-    top: -182px;
-    left: -30px;
-}
-
-
-
-//v-a-footer-container 
+//v-a-footer-container2 
 
 .v-a-footer-container2 {
-  width: 1000px;
+  width: 970px;
   height: 93px;
  
 
@@ -1019,10 +940,12 @@ margin-bottom: 40px;
     background: linear-gradient(to bottom, #868686, #868686 12%, #222222 12%, #222222);
     background-size: 100% 8px;
     height: 93px;
+    vertical-align: middle;
+    padding-top: 24px; 
     
 }
 
-//v-a-footer-text2
+//v-a-footer-text2 ---the whole line of logos and text
 
 .v-a-footer-text2{
 
@@ -1030,6 +953,10 @@ margin-bottom: 40px;
   font: $oswald;
   font-size: 18px;
   margin-left: 10px;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+
 }
 
 //v-a-footer-image2
@@ -1040,71 +967,35 @@ margin-bottom: 40px;
     position: relative;
     max-height: 30px;
     max-width: auto;
-    // content: "/images/bulu-box.png";
+    vertical-align: middle;
     margin-left: 10px;
-    // top: -80px;
-    // right: -96px;
+
 }
 
 .v-a-footer-design-credit-image2 {
 
-    display: block;
+    display: inline-block;
     position: relative;
-    float: right;
+    /* float: right; */
     max-height: 50px;
     max-width: auto;
-    // content: "/images/omaha-code-school.png";
+    vertical-align: middle;
     margin-left: 10px;
-    top: -182px;
-    left: -30px;
 }
 
 .v-a-footer-design-credit-text2 {
 
     color: white;
-    font: $oswald;
+    font: normal normal 1.5rem "Oswald";
     font-size: 18px;
-    margin-left: 10px;
-    display: block;
+    display: inline-block;
     position: relative;
+    vertical-align: middle;
+    margin-left: 43%;
   
 }
 
-
-//close background
-
-//close container
+// the end of the whole line of logos and text----
 
 
 
-
-
-
-
-
-// used as a model for my pinstripe background
-.module {
-  background: red;
-  border: 1px solid #ccc;
-  margin: 3%;
-  > h2 {
-    padding: 1rem;
-    margin: 0 0 0.5rem 0;
-  }
-  > p {
-    padding: 0 1rem;
-  }
-}
-
-.stripe-5 {
-  color: orange;
-  background: linear-gradient(
-    to bottom,
-    #5d9634,
-    #5d9634 50%,
-    #538c2b 50%,
-    #538c2b
-  );
-  background-size: 100% 20px;
-}
- 
