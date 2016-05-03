@@ -129,7 +129,6 @@
 
 
 
-
 //-----------4 column text entry box for admin pages----
 .four-column-text-entry-object {
   position: relative;
@@ -466,8 +465,41 @@
 
 }
 
+//musician page photo
+
+.musician-photo-large{
+
+position: relative;
+width: 100%;
+padding-bottom: 10px;
+padding-top: 10px;
+}
 
 
+//-------album links----------------
+
+  .album-link {
+      padding: 0;
+      text-align: center;
+      text-decoration: none;
+      background-color: white;
+      background-size: 25px 25px;
+  }
+
+  .album-link:visited {
+    text-color: #5d5e5e;
+    text-decoration: none;
+  }
+ 
+  .album-link:hover {
+      cursor: pointer;
+      background-color: orange;
+  }
+
+   .album-link:active {
+    text-color: #5d5e5e;
+    text-decoration: underline;
+  }
 
 
 //---------9 column page navigation-------
@@ -768,13 +800,11 @@
 
 .vinyl-archive-footer-option {
 
-width: 8px;
-height: 8px;
-background-width: 960px;
-background-height: 93px;
+width: 960px;
+height: 93px;
 background: "images/footer-background_2x.png";
-background-repeat: repeat;
-margin-bottom: 40px;
+background-repeat: repeat-x;
+background-repeat: repeat-y;
 
 
 }
@@ -897,7 +927,7 @@ margin-bottom: 40px;
     font: italic lighter 1.5rem "Oswald";
     color: #5d5e5e;
     appearance: none;
-    width: 400px;
+    width: 100%;
     padding: 5px 10px 5px 10px;
     border-width: 0px;
     position: relative;
@@ -906,8 +936,8 @@ margin-bottom: 40px;
   .spyglass {
     display: inline-block;
     position: absolute;
-    left: 598px;
-    top: 127px;
+    right: 40px;
+    top: 10px;
     color: #a6a6a6;
     width: 20px;
     height: 20px;}
