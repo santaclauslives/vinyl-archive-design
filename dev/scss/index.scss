@@ -58,43 +58,20 @@
       border-width: 0px;
       border-color: #5d5e5e;}
 
-//---------search box----------
 
-  .action-header {
-    padding: 20px 0px 20px 0px;
-  }
 
-.search-bar {
-      display: block;
-      float: left;
-      border-radius: 5px;
-      background-color: #efefef;
-      width: 400px;
-      padding: 0px 0px;
-      margin: 0px 0px;}
-  .search-bar-text {
-      font: $oswaldItalic;
-      color: #5d5e5e;
-      appearance: none;
-      width: 400px;
-      padding: 5px 10px 5px 10px;
-      border-width: 0px;}
-  .spyglass {
-    display: inline-block;
-    position: absolute;
-    left: 598px;
-    top: 127px;
-    color: #a6a6a6;
-    width: 20px;
-    height: 20px;}
 
-    //--------navigation icons---------
+//---------9 col---artist page mid page header---------
 
-    .navigation-icon {
-      height: 48px;
-      width: 100%;
-      ;
-    }
+.members {
+  position: relative;
+  display: inline-block;
+  margin-left: 48%;
+}
+
+
+
+    
 
 
 
@@ -121,69 +98,8 @@
 }
 
 
- //--------test end              
-  .vinyl-archive-header {
-      position: relative;
-      display: block;
-      width: 100%;
-      height: 93px;
-      padding: 0px 0px;
-      }
 
-  .vinyl-archive-header-background-image {
-      position: relative;
-      background-image: "/images/record-background2.png";
-      background-color: black;
 
-      
-  }
-
-  .vinyl-archive-header-background-image-alt {
-      position: relative;
-      background: transparent;
-  }
- 
-  .vinyl-archive-header-text {
-    position: absolute;
-    top: 25px;
-    left: 151px;
-    color: #FFFFFF;
-    display: block;
-    font: $oswald;
-    padding-top: 00px;
-    padding-left: 20px;
-   
-  }
-
-  .icon {
-      float: left;
-      position: absolute;
-      height: 93px;
-      top: 0px;
-      left: 50px;
-      display: inline-block;
-      font: $icons;
-      padding: 10px 10px;
-      background-color: white;
-
-}
-  
-  .byline {
-      font: $oswaldLight;
-      padding-left: 10px;
-  }
-   .link-text-vinyl-archive-header {
-       position: relative;
-       top: -84px;
-       float: right;
-       display: block;
-       color: white;
-       font: $montserrat;
-       text-decoration: none;
-       vertical-align: middle;
-       padding-top: 20px;
-       padding-right: 20px;
-   }
      
 //----modifications to the va header for admin pages----
 
@@ -212,14 +128,6 @@
    }
 
 
-
-
-
-  // vinyl-archive-header-background-image-admin-pages {
-  //     position: relative;
-  //     background: transparent;
-  //     opacity: 0.4;
-  // }
 
 
 //-----------4 column text entry box for admin pages----
@@ -363,7 +271,7 @@
     background-color: #FFFFFF;
     width: 100%;
     height: 50px;
-    padding: 10px 10px;
+    padding: 10px 0px;
     border-top-width: 2px;
     border-bottom-width: 2px;
     border-left-width: 0px;
@@ -648,24 +556,7 @@
 
 }
 
-//--------on artist page and musician page -----
-.social-media-icon {
-  position: inline-block;
-  font: $icons;
-  font-size: 24px;
-  float: right;
-  padding: 10px 5px;
-  color: #a6a6a6;
 
-}
- 
-.social-media-links-text {
-  position: inline-block;
-  float: right;
-  padding: 10px 5px;
-  font: $oswaldItalic;
-
-}
 
 //-----------------bullet list on artist page------
 
@@ -681,6 +572,9 @@
 }
 
 //-----------lower bar on 9 col artist page-----------
+
+
+
 
 // begin full page container stuff---------------------
 
@@ -883,33 +777,9 @@ background-repeat: repeat;
 margin-bottom: 40px;
 
 
-/* Standard syntax */
-// background: repeating-linear-gradient; 
-
-// (to bottom
-
-//   #black 95%,
-//   #white 5%);
-// background-height: 93px;
-// background-width: 100%;
-
-
-// background-color: black;
-//  background: linear-gradient(top, white 5%, black 5%);
-//  background-size: 960px 8px;
-//  background-repeat: repeat-y;
-
-
 }
 
-.vinyl-archive-footer-experiment {
 
-    color: white;
-    background: linear-gradient(to bottom, #cecece, #cecece 12%, #222222 12%, #222222);
-    background-size: 100% 8px;
-}
-
-// background: -webkit-linear-gradient(top, #cecece, #cecece 12%, #5d5e5e 12%, #5d5e5e);
 
 
  //This is all upside down. Make the container, 1000 x 93, make the 
@@ -920,17 +790,209 @@ margin-bottom: 40px;
  //few ways to do it. The block is my friend. Make the block, 
  //fill the block, use the block where you need it over and over.
 
+//-------large blocks below----------
 
+//--header
+//--second header (3 kinds)
+//--right column (most pages)
+//--left column elements (has some variety)
+//--footer
+//--album page left column (unique)
+//--album page right column (unique)
+
+//--BEGIN VA HEADER CONTAINER AND ELEMENTS--------------------
+
+  .vinyl-archive-header {
+      position: relative;
+      display: block;
+      width: 100%;
+      height: 93px;
+  }
+
+  .vinyl-archive-header-background-image {
+      position: relative;
+      background-image: "/images/record-background2.png";
+      background-color: black;   
+  }
+
+  .vinyl-archive-header-background-image-alt {
+      position: relative;
+      background: transparent;
+  }
+ 
+  .vinyl-archive-header-text {
+    position: absolute;
+    top: 25px;
+    left: 151px;
+    color: #FFFFFF;
+    display: block;
+    font: $oswald;
+    padding-top: 00px;
+    padding-left: 20px;   
+  }
+
+  .icon {
+      float: left;
+      position: absolute;
+      height: 93px;
+      top: 0px;
+      left: 50px;
+      display: inline-block;
+      font: $icons;
+      padding: 10px 10px;
+      background-color: white;
+  }
+  
+  .byline {
+      font: $oswaldLight;
+      padding-left: 10px;
+  }
+
+  .link-text-vinyl-archive-header {
+       position: relative;
+       top: -84px;
+       float: right;
+       display: block;
+       color: white;
+       font: $montserrat;
+       text-decoration: none;
+       vertical-align: middle;
+       padding-top: 20px;
+       padding-right: 20px;
+  }
+
+
+
+
+  
+//--END OF HEADER AND ALL OF ITS ELEMENTS------------------
+
+//--BEGIN VA SECOND HEADER CONTAINER AND ELEMENTS--------------------
+
+.second-level-header-container {
+  width: 970px;
+  height: 93px;
+  padding: 20px 2%;
+}
+
+
+
+
+//---------search box----------
+
+  // .action-header {
+  //   padding: 20px 0px 20px 0px;
+  // }
+
+  .search-bar {
+    display: block;
+    float: left;
+    border-radius: 5px;
+    background-color: #efefef;
+    width: 400px;
+    padding: 0px 0px;
+    margin: 0px 0px;
+  }
+  .search-bar-text {
+    font: italic lighter 1.5rem "Oswald";
+    color: #5d5e5e;
+    appearance: none;
+    width: 400px;
+    padding: 5px 10px 5px 10px;
+    border-width: 0px;
+    position: relative;
+    display: inline-block;
+  }
+  .spyglass {
+    display: inline-block;
+    position: absolute;
+    left: 598px;
+    top: 127px;
+    color: #a6a6a6;
+    width: 20px;
+    height: 20px;}
+
+//----sort bar (not formatted correctly what does it do?)-------
+  .sort-bar-object {
+    width: 300px;
+    height: 50px;
+    vertical-align: middle;
+  }
+
+
+  .sort-bar {
+    display: block;
+    position: relative;
+    float: left;
+    font: $oswald;
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+
+  .sort-input {
+    position: relative;
+    display: inline-block;
+    height: 36px;
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+
+  .sort {
+    position: relative;
+    display: inline-block;
+    font: $oswald;
+    float: left;
+  }
+
+//------icons for toggle between box format and list format homepage---
+
+    // .navigation-icon {
+    //   height: 48px;
+    //   width: 100%;
+    //   vertical-align: middle;  
+    // }
+
+    .material-icons {
+      display: inline-block;
+      position: relative;
+      font-size: 48px;
+      width: 100%;
+      height: 100%;
+      vertical-align: middle;  
+    }
+
+//--------social media icons (on albums, artist, musician, search) -----
+.social-media-icon {
+  position: inline-block;
+  font: $icons;
+  font-size: 30px;
+  float: right;
+  padding: 10px 5px;
+  color: #a6a6a6;
+}
+ 
+.social-media-links-text {
+  position: inline-block;
+  float: right;
+  padding: 10px 5px;
+  font: $oswaldItalic;
+
+}
+
+
+
+
+//--END OF VA SECOND HEADER AND ALL OF ITS ELEMENTS------------------
+
+
+//--VA FOOTER CONTAINER AND ELEMENTS---------------------
 
 //v-a-footer-container2 
 
 .v-a-footer-container2 {
   width: 970px;
   height: 93px;
- 
-
-
-}
+ }
   
 //v-a-footer-background2
 
@@ -941,11 +1003,12 @@ margin-bottom: 40px;
     background-size: 100% 8px;
     height: 93px;
     vertical-align: middle;
-    padding-top: 24px; 
-    
+    padding-top: 24px;     
 }
 
-//v-a-footer-text2 ---the whole line of logos and text
+//ALL LOGOS AND TEXT ON VA FOOTER ARE HERE----------
+
+//v-a-footer-text2 ---
 
 .v-a-footer-text2{
 
@@ -956,46 +1019,43 @@ margin-bottom: 40px;
   position: relative;
   display: inline-block;
   vertical-align: middle;
-
 }
 
 //v-a-footer-image2
 
-.v-a-footer-image2{
+  .v-a-footer-image2{
 
-    display: inline-block;
-    position: relative;
-    max-height: 30px;
-    max-width: auto;
-    vertical-align: middle;
-    margin-left: 10px;
+      display: inline-block;
+      position: relative;
+      max-height: 30px;
+      max-width: auto;
+      vertical-align: middle;
+      margin-left: 10px;
+  }
 
-}
+  .v-a-footer-design-credit-image2 {
 
-.v-a-footer-design-credit-image2 {
+      display: inline-block;
+      position: relative;
+      /* float: right; */
+      max-height: 50px;
+      max-width: auto;
+      vertical-align: middle;
+      margin-left: 10px;
+  }
 
-    display: inline-block;
-    position: relative;
-    /* float: right; */
-    max-height: 50px;
-    max-width: auto;
-    vertical-align: middle;
-    margin-left: 10px;
-}
+  .v-a-footer-design-credit-text2 {
 
-.v-a-footer-design-credit-text2 {
+      color: white;
+      font: normal normal 1.5rem "Oswald";
+      font-size: 18px;
+      display: inline-block;
+      position: relative;
+      vertical-align: middle;
+      margin-left: 43%; 
+  }
 
-    color: white;
-    font: normal normal 1.5rem "Oswald";
-    font-size: 18px;
-    display: inline-block;
-    position: relative;
-    vertical-align: middle;
-    margin-left: 43%;
-  
-}
-
-// the end of the whole line of logos and text----
+// THE END OF EVERYTHING HAVING TO DO WITH THE VA FOOTER----
 
 
 

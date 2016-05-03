@@ -1871,38 +1871,10 @@ button {
   border-width: 0px;
   border-color: #5d5e5e; }
 
-.action-header {
-  padding: 20px 0px 20px 0px; }
-
-.search-bar {
-  display: block;
-  float: left;
-  border-radius: 5px;
-  background-color: #efefef;
-  width: 400px;
-  padding: 0px 0px;
-  margin: 0px 0px; }
-
-.search-bar-text {
-  font: italic lighter 1.5rem "Oswald";
-  color: #5d5e5e;
-  appearance: none;
-  width: 400px;
-  padding: 5px 10px 5px 10px;
-  border-width: 0px; }
-
-.spyglass {
+.members {
+  position: relative;
   display: inline-block;
-  position: absolute;
-  left: 598px;
-  top: 127px;
-  color: #a6a6a6;
-  width: 20px;
-  height: 20px; }
-
-.navigation-icon {
-  height: 48px;
-  width: 100%; }
+  margin-left: 48%; }
 
 .title-bar {
   display: block;
@@ -1916,59 +1888,6 @@ button {
 .menu-icon {
   color: #FFFFFF;
   display: inline-block; }
-
-.vinyl-archive-header {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 93px;
-  padding: 0px 0px; }
-
-.vinyl-archive-header-background-image {
-  position: relative;
-  background-image: "/images/record-background2.png";
-  background-color: black; }
-
-.vinyl-archive-header-background-image-alt {
-  position: relative;
-  background: transparent; }
-
-.vinyl-archive-header-text {
-  position: absolute;
-  top: 25px;
-  left: 151px;
-  color: #FFFFFF;
-  display: block;
-  font: normal normal 1.5rem "Oswald";
-  padding-top: 00px;
-  padding-left: 20px; }
-
-.icon {
-  float: left;
-  position: absolute;
-  height: 93px;
-  top: 0px;
-  left: 50px;
-  display: inline-block;
-  font: normal normal 80px "HN-icons";
-  padding: 10px 10px;
-  background-color: white; }
-
-.byline {
-  font: normal lighter 1.5rem "Oswald";
-  padding-left: 10px; }
-
-.link-text-vinyl-archive-header {
-  position: relative;
-  top: -84px;
-  float: right;
-  display: block;
-  color: white;
-  font: normal bold 1.5rem "Montserrat";
-  text-decoration: none;
-  vertical-align: middle;
-  padding-top: 20px;
-  padding-right: 20px; }
 
 .vinyl-archive-header-admin-pages {
   position: relative;
@@ -2108,7 +2027,7 @@ button {
   background-color: #FFFFFF;
   width: 100%;
   height: 50px;
-  padding: 10px 10px;
+  padding: 10px 0px;
   border-top-width: 2px;
   border-bottom-width: 2px;
   border-left-width: 0px;
@@ -2315,20 +2234,6 @@ ul li a:hover {
   padding-top: 00px;
   padding-left: 20px; }
 
-.social-media-icon {
-  position: inline-block;
-  font: normal normal 80px "HN-icons";
-  font-size: 24px;
-  float: right;
-  padding: 10px 5px;
-  color: #a6a6a6; }
-
-.social-media-links-text {
-  position: inline-block;
-  float: right;
-  padding: 10px 5px;
-  font: italic lighter 1.5rem "Oswald"; }
-
 .artist {
   list-style-type: none; }
 
@@ -2490,13 +2395,140 @@ ul li a:hover {
   background-height: 93px;
   background: "images/footer-background_2x.png";
   background-repeat: repeat;
-  margin-bottom: 40px;
-  /* Standard syntax */ }
+  margin-bottom: 40px; }
 
-.vinyl-archive-footer-experiment {
+.vinyl-archive-header {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 93px; }
+
+.vinyl-archive-header-background-image {
+  position: relative;
+  background-image: "/images/record-background2.png";
+  background-color: black; }
+
+.vinyl-archive-header-background-image-alt {
+  position: relative;
+  background: transparent; }
+
+.vinyl-archive-header-text {
+  position: absolute;
+  top: 25px;
+  left: 151px;
+  color: #FFFFFF;
+  display: block;
+  font: normal normal 1.5rem "Oswald";
+  padding-top: 00px;
+  padding-left: 20px; }
+
+.icon {
+  float: left;
+  position: absolute;
+  height: 93px;
+  top: 0px;
+  left: 50px;
+  display: inline-block;
+  font: normal normal 80px "HN-icons";
+  padding: 10px 10px;
+  background-color: white; }
+
+.byline {
+  font: normal lighter 1.5rem "Oswald";
+  padding-left: 10px; }
+
+.link-text-vinyl-archive-header {
+  position: relative;
+  top: -84px;
+  float: right;
+  display: block;
   color: white;
-  background: linear-gradient(to bottom, #cecece, #cecece 12%, #222222 12%, #222222);
-  background-size: 100% 8px; }
+  font: normal bold 1.5rem "Montserrat";
+  text-decoration: none;
+  vertical-align: middle;
+  padding-top: 20px;
+  padding-right: 20px; }
+
+.second-level-header-container {
+  width: 970px;
+  height: 93px;
+  padding: 20px 2%; }
+
+.search-bar {
+  display: block;
+  float: left;
+  border-radius: 5px;
+  background-color: #efefef;
+  width: 400px;
+  padding: 0px 0px;
+  margin: 0px 0px; }
+
+.search-bar-text {
+  font: italic lighter 1.5rem "Oswald";
+  color: #5d5e5e;
+  appearance: none;
+  width: 400px;
+  padding: 5px 10px 5px 10px;
+  border-width: 0px;
+  position: relative;
+  display: inline-block; }
+
+.spyglass {
+  display: inline-block;
+  position: absolute;
+  left: 598px;
+  top: 127px;
+  color: #a6a6a6;
+  width: 20px;
+  height: 20px; }
+
+.sort-bar-object {
+  width: 300px;
+  height: 50px;
+  vertical-align: middle; }
+
+.sort-bar {
+  display: block;
+  position: relative;
+  float: left;
+  font: normal normal 1.5rem "Oswald";
+  margin-left: 10px;
+  vertical-align: middle; }
+
+.sort-input {
+  position: relative;
+  display: inline-block;
+  height: 36px;
+  margin-left: 10px;
+  vertical-align: middle; }
+
+.sort {
+  position: relative;
+  display: inline-block;
+  font: normal normal 1.5rem "Oswald";
+  float: left; }
+
+.material-icons {
+  display: inline-block;
+  position: relative;
+  font-size: 48px;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle; }
+
+.social-media-icon {
+  position: inline-block;
+  font: normal normal 80px "HN-icons";
+  font-size: 30px;
+  float: right;
+  padding: 10px 5px;
+  color: #a6a6a6; }
+
+.social-media-links-text {
+  position: inline-block;
+  float: right;
+  padding: 10px 5px;
+  font: italic lighter 1.5rem "Oswald"; }
 
 .v-a-footer-container2 {
   width: 970px;
