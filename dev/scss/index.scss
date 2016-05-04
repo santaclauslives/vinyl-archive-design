@@ -101,7 +101,7 @@
 
 
      
-//----modifications to the va header for admin pages----
+//----MODIFICATIONS TO VA HEADER FOR ADMIN PAGES----
 
 .vinyl-archive-header-admin-pages {
       position: relative;
@@ -109,8 +109,7 @@
       width: 100%;
       height: 93px;
       padding: 0px 0px;
-      top: -93px;
-
+      // top: -93px;
       
 }
 
@@ -122,20 +121,20 @@
        color: white;
        font: $montserrat;
        text-decoration: none;
-       // vertical-align: middle;
        padding-top: 30px;
        padding-right: 20px;
+     
    }
 
-
+//--END MODIFICATIONS OF VA HEADER FOR ADMIN PAGES------
 
 //-----------4 column text entry box for admin pages----
 .four-column-text-entry-object {
   position: relative;
   width: 100%; 
   vertical-align: middle;
-  top: -500px;
-  right: -341px;
+  // top: -500px;
+  // right: -341px;
   margin: 10px 0px;
 }
 .four-column-text-entry-box-title {
@@ -399,8 +398,7 @@
     display: block;
     padding: 10px 10px;
     float: left;
-    // height: 100%;
-    height: 800px;
+    height: 100%;
 
   }
 
@@ -492,7 +490,6 @@ padding-top: 10px;
   }
  
   .album-link:hover {
-      cursor: pointer;
       background-color: orange;
   }
 
@@ -674,8 +671,8 @@ padding-top: 10px;
   position: relative;
   width: 100%;
   vertical-align: middle;
-  top: -553px;
-  right: -341px;
+  // top: -553px;
+  // right: -341px;
   margin: 10px 0px;
 }
 .four-column-biography-text-entry-box-title {
@@ -910,9 +907,6 @@ background-repeat: repeat-y;
 
 //---------search box----------
 
-  // .action-header {
-  //   padding: 20px 0px 20px 0px;
-  // }
 
   .search-bar {
     display: block;
@@ -976,11 +970,6 @@ background-repeat: repeat-y;
 
 //------icons for toggle between box format and list format homepage---
 
-    // .navigation-icon {
-    //   height: 48px;
-    //   width: 100%;
-    //   vertical-align: middle;  
-    // }
 
     .material-icons {
       display: inline-block;

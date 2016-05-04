@@ -1894,8 +1894,7 @@ button {
   display: block;
   width: 100%;
   height: 93px;
-  padding: 0px 0px;
-  top: -93px; }
+  padding: 0px 0px; }
 
 .link-text-vinyl-archive-header-admin-pages {
   position: relative;
@@ -1911,8 +1910,6 @@ button {
   position: relative;
   width: 100%;
   vertical-align: middle;
-  top: -500px;
-  right: -341px;
   margin: 10px 0px; }
 
 .four-column-text-entry-box-title {
@@ -2117,7 +2114,7 @@ button {
   display: block;
   padding: 10px 10px;
   float: left;
-  height: 800px; }
+  height: 100%; }
 
 .album-cover-main-image {
   display: block;
@@ -2184,7 +2181,6 @@ button {
   text-decoration: none; }
 
 .album-link:hover {
-  cursor: pointer;
   background-color: orange; }
 
 .album-link:active {
@@ -2311,8 +2307,6 @@ ul li a:hover {
   position: relative;
   width: 100%;
   vertical-align: middle;
-  top: -553px;
-  right: -341px;
   margin: 10px 0px; }
 
 .four-column-biography-text-entry-box-title {
